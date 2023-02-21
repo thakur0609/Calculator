@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    padding: 20px;
+    width: 54px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border: 2px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+    /* background: rgb(223, 220, 220); */
+}
+#blue {
+    padding: 20px;
+    width: 54px;
+    margin: 0 3px;
+    border: 2px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #4964fe; 
+    color: white;
+}
+.row{
+    margin: 8px 0px;
+}
+.row input {
+    font-size: 20px;
+    margin: 0px;
+    padding: 15px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+@media  screen and (max-width: 426px) {
+    .h1{
+        display: none;
+    }
+    
+}
