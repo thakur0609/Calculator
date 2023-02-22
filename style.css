@@ -39,9 +39,9 @@ html, body {
     border-radius: 5px;
 }
 
-@media  screen and (max-width: 426px) {
+/* @media  screen and (max-width: 426px) {
     .h1{
         display: none;
     }
     
-}
+} */
